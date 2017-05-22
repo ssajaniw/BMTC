@@ -1,0 +1,313 @@
+.header {
+    background-color: #c8222c;
+    height: 50px;
+    color: white;
+    margin-bottom: 16px;
+    z-index: 1;
+}
+		
+		.header .hbox1{
+			padding: 10px;
+		}
+		.header .hbox2{
+			background-color: #a7161e;
+			min-height: 50px;
+			padding: 5px;
+			text-align: center;
+		}
+			.header .hbox2 span{
+				font-size: 16px;
+				line-height: 40px;
+				font-weight: bold;
+			}
+		.header .hbox3{
+			background-color: #c8222c;
+			border-bottom:solid 2px white;
+		    padding: 5px;
+		    margin-left: 10px;
+		    width: 175px;
+		    height: 40px;
+		}
+			.header .hbox3 input[type='text']{
+				text-indent: 5px;
+				font-size: 16px;
+				color: white;
+				border: none;
+				outline: none;
+				background-color: transparent;
+				margin-top: 5px;
+				min-height: 30px;
+				width: 140px;
+				
+				border-color: white;
+			}
+			.header .hbox3 button{
+				border: none;
+				background-color: transparent;
+				outline: none;
+			}
+/*header*/
+
+
+/*
+Code snippet by maridlcrmn for Bootsnipp.com
+Follow me on Twitter @maridlcrmn
+*/
+
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(111, 84, 153);
+    border-color: rgb(111, 84, 153);
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+
+@media screen and (max-width: 767px) {
+
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: transparent;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 4px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ddd;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+
+    margin-left: -15px;
+    margin-top: -9px;
+
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 16px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: grey;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: grey;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: black;
+    background-color: transparent;
+}
+.fa-2x {
+    font-size: 20px;
+    padding: 4px;
+}
+/*image*/
+
+.coverimage
+  {
+  	position: relative;
+
+background: url('../images/img.jpg') no-repeat center  ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 545px;
+
+  border-top: solid 2px red;
+		border-bottom: solid 2px red;
+}
+.nav.navbar-nav.navbar-right {
+    font-weight: bolder;
+}
+/*form starts*/
+td {
+    font-size: 21px;
+}
+ .text {
+    font-size: 12px;
+    margin-bottom: 36px;
+}
+.form-control {
+    border-bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid blue;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-group {
+    margin-bottom: 40px;
+}
+.opt-left {
+    background-color: #25396d;
+    color: white;
+}
+.opt-right {
+    background-color: #c8222c;
+    color: white;
+    overflow: none;
+}
+
+.btn.btn-black.pull-right {
+    background-color: #25396d;
+    color: #fff;
+}
+.btn.btn-black{
+       background-color: #25396d;
+    color: #fff;
+
+}
+.well {
+    min-height: 42px;
+    padding: 37px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.about{
+margin-top: -53px;
+padding-top: 20px;
+padding-bottom: 60px;
+width: 100%;
+background-color: #25396d;
+color: #FFF;
+min-height: 300px;
+}
+.about-us{
+        margin-top: 100px;
+    margin-left: -55px;
+    text-align: center;
+        font-size: 21px;
+s
+}
+
+.hos{
+    text-align: center;
+    margin-top: 5px;
+    font-family:ProximaNova;
+}
+.pi{
+    text-align: center;
+    margin-top: -5px;
+    font-family:ProximaNova;
+}
+.about b{
+    font-size: 20px;
+    
+}
+a{
+    margin-left: 5px;
+    color: #FFF;
+
+}
+.mar{
+    top:15px;
+}
+
+/*career*/
+.career {
+   background-color: #ddd;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+   
+}
+
+.contactus {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btn-default {
+    color: #fff;
+    background-color: #25396d;
+    border-color: #25396d;
+}
+div.dv {
+    border-bottom: 1px solid #ddd;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-top: -25px;
+}
